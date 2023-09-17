@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="movie.css">
+    
+    <title>Labneflix</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">Labne<span>flix</span></div>
+            <div class="logo-items">
+                <input type="search" id="search-place" class="hidden visuallyhidden" placeholder="...">
+                <button type="button" id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <ul class="links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" style="
+                    background:linear-gradient(to left, #5d69be, #c89feb);
+                    padding: 3px;
+                    border-radius: 3px;
+                    ">Movie</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="h-body">
+            <div class="film-slider"></div>
+        </div>
+        <div class="h-others">
+            <div class="contant">
+                <h2>Most Viewed Movies On This Week</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere veniam reiciendis amet officia dignissimos asperiores enim accusamus quae ut quos.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="movie-container">
+        </div>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="suggestion">
+                <p>You can send us your suggestions and opinions.</p>
+                <form action="">
+                    <textarea id="message" rows="5" placeholder="your opinions"></textarea>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+            <div class="f-links">
+                <ul>
+                    <h2 style="margin-bottom: 10px;">Links</h2>
+                    <li><a href="">Help & Support</a></li>
+                    <li><a href="">Privasy Policy</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+    <script src="header.js"></script>
+    <script src="movies.js"></script>
+</body>
+</html>
